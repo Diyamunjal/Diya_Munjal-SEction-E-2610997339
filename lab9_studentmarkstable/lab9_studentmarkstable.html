@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Examination Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            border: 2px solid #8cb1e3;
+            border-radius: 10px;
+            padding: 15px;
+            background-color: #ffffff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #1a4a75;
+            background-color: #d3e2f4;
+            padding: 8px;
+            border-radius: 5px;
+            margin-top: 0;
+            font-size: 18px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            text-align: center;
+            font-size: 14px;
+        }
+        th, td {
+            border: 1px solid #a8c4df;
+            padding: 8px 12px;
+        }
+        th {
+            background-color: #d3e2f4;
+            color: #000;
+        }
+        .student-name, .class-avg-label {
+            text-align: left;
+        }
+        .pass {
+            background-color: #d4edda;
+            color: #155724;
+            font-weight: bold;
+        }
+        .fail {
+            background-color: #f8d7da;
+            color: #721c24;
+            font-weight: bold;
+        }
+        .footer-row {
+            font-weight: bold;
+            background-color: #d3e2f4;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Examination Result</h2>
+
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th rowspan="2">S. No.</th>
+                <th rowspan="2">Student Name</th>
+                <th rowspan="2">Roll Number</th>
+                <th colspan="3">Subjects</th>
+                <th rowspan="2">Total</th>
+                <th rowspan="2">Result</th>
+            </tr>
+            <tr>
+                <th>Science</th>
+                <th>Maths</th>
+                <th>English</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="student-name">Aarav Sharma</td>
+                <td>101</td>
+                <td>85</td>
+                <td>90</td>
+                <td>78</td>
+                <td>253</td>
+                <td class="pass">Pass</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="student-name">Neha Gupta</td>
+                <td>102</td>
+                <td>92</td>
+                <td>88</td>
+                <td>95</td>
+                <td>275</td>
+                <td class="pass">Pass</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="student-name">Rohan Mehta</td>
+                <td>103</td>
+                <td>76</td>
+                <td>82</td>
+                <td>70</td>
+                <td>228</td>
+                <td class="pass">Pass</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td class="student-name">Sneha Verma</td>
+                <td>104</td>
+                <td>68</td>
+                <td>74</td>
+                <td>72</td>
+                <td>214</td>
+                <td class="fail">Fail</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td class="student-name">Karan Singh</td>
+                <td>105</td>
+                <td>88</td>
+                <td>93</td>
+                <td>85</td>
+                <td>266</td>
+                <td class="pass">Pass</td>
+            </tr>
+            <tr class="footer-row">
+                <td colspan="3" class="class-avg-label" style="text-align: center;">Class Average</td>
+                <td>81.8</td>
+                <td>85.4</td>
+                <td>80.0</td>
+                <td>247.2</td>
+                <td>-</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
