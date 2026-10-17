@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Website</title>
+</head>
+<!-- 
+  rows="150, *" sets the header height to 150px and the rest for navigation/content.
+  cols="220, *" splits the remaining area into a 220px navigation bar and the main content area.
+-->
+<frameset rows="150, *" border="2">
+    <!-- Task 1: Header Section -->
+    <frame src="header.html" name="headerFrame" scrolling="no" noresize>
+    
+    <frameset cols="220, *">
+        <!-- Task 2 & 5: Navigation Frame -->
+        <frame src="nav.html" name="navFrame">
+        
+        <!-- Task 2 & 4: Main Content Frame (Default page is Home) -->
+        <frame src="home.html" name="mainFrame">
+    </frameset>
+</frameset>
+</html>
