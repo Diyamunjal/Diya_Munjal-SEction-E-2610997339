@@ -1,0 +1,20 @@
+
+* {
+    color: darkgrey;
+}
+
+#main-heading {
+    background-color:lightblue;
+}
+
+.event-section {
+    background-color: lightyellow;
+}
+
+p {
+    color: darkgreen;
+}
+
+h1, p {
+    background-color: lightgrey;
+}
