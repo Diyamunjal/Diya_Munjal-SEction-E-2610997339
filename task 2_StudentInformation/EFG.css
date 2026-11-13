@@ -1,0 +1,6 @@
+* {background-color: antiquewhite; }
+#main-heading{ color: darkblue;}
+#main-heading,p{ color: brown;}
+p{ color: darkgreen; }
+.student-section{ background-color: lightyellow; }
+.roll-number{ color: red; }
